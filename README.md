@@ -1,6 +1,6 @@
 # npmtest-change-case
 
-#### test coverage for  [change-case (v3.0.1)](https://github.com/blakeembrey/change-case#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-change-case.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-change-case) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-change-case.svg)](https://travis-ci.org/npmtest/node-npmtest-change-case)
+#### basic test coverage for  [change-case (v3.0.1)](https://github.com/blakeembrey/change-case#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-change-case.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-change-case) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-change-case.svg)](https://travis-ci.org/npmtest/node-npmtest-change-case)
 
 #### Convert a string between camelCase, PascalCase, Title Case, snake_case and more.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-change-case/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-change-case/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-change-case/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-change-case/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-change-case/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-change-case/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-change-case/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-change-case/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-change-case/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-change-case/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-change-case/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-change-case/build/coverage.html/index.html)
 
@@ -114,7 +114,8 @@
         "test-std": "mocha -- -R spec --bail"
     },
     "typings": "change-case.d.ts",
-    "version": "3.0.1"
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
